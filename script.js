@@ -9,9 +9,6 @@ function addtask() {
     
     statusArray.push(taskInfo);
 
-    console.log('taskInfo',taskInfo);
-    console.log('statusArray',statusArray);    
-    
     let taskBox = document.createElement('div');
 
     let status = document.getElementById('statuslist').value;
